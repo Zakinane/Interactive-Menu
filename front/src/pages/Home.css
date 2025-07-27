@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Burgur;
+  src: url("../assets/fonts/LexendZetta-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Burger;
+  src: url("../assets/fonts/SansitaSwashed-VariableFont_wght.ttf");
+}
+body {
+  background-color: #12372a;
+}
+.home {
+  margin-top: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 100%;
+  background-color: #12372a;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Burgur;
+  font-weight: bold;
+
+  #the-ultimate {
+    color: #adbc9f;
+    font-size: 2em;
+    line-height: 0;
+  }
+  #burger-club {
+    font-family: Burger;
+    color: #fbfada;
+    font-size: 6em;
+  }
+  #savor-the-flavor {
+    color: #adbc9f;
+    font-size: 0.8em;
+    line-height: 2;
+  }
+}
+.burger-main {
+  position: relative;
+
+  img {
+    width: 600px;
+    display: block;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 600px;
+    height: 60px;
+    background-color: #08161155;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
