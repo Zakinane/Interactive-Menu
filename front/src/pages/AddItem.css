@@ -1,0 +1,60 @@
+.add-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #12372a;
+  color: #fbfada;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+}
+
+.add-item h1 {
+  font-family: Burgur, sans-serif;
+  margin-bottom: 30px;
+  font-size: 2.2em;
+  color: #fbfada;
+}
+
+.add-item form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-item input,
+.add-item textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1em;
+  background: #fbfada;
+  color: #12372a;
+}
+
+.add-item textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.add-item button {
+  padding: 12px;
+  background: #adbc9f;
+  color: #12372a;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-item button:hover {
+  background: #fbfada;
+}

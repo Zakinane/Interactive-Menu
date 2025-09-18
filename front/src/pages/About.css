@@ -1,0 +1,23 @@
+.about {
+  padding: 40px;
+  text-align: center;
+  color: #fbfada;
+  background-color: #12372a;
+  font-family: Burger, sans-serif;
+}
+
+.about h1 {
+  font-family: Burgur, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about a {
+  color: #76c893;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}

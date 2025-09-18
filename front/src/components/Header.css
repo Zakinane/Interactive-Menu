@@ -7,17 +7,30 @@
   src: url("../assets/fonts/SansitaSwashed-VariableFont_wght.ttf");
 }
 header {
+  text-decoration: none;
   padding-top: 15px;
   display: flex;
   background-color: #12372a;
-  color: #fbfada;
+  color: #fbfada !important;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 70px;
+  a {
+    text-decoration: none; /* enlève le soulignement */
+    color: inherit; /* prend la couleur de son parent */
+  }
+
+  a:focus,
+  a:active {
+    outline: none; /* enlève le contour bleu quand on clique/tab */
+    text-decoration: none;
+  }
 }
 
 .list-nav {
+  color: #fbfada !important;
+  text-decoration: none;
   display: flex;
   font-family: Burger;
   justify-content: space-evenly;

@@ -12,6 +12,7 @@ function Home() {
       <div className="burger-main">
         <img src={burgerMain} alt="Burg" />
       </div>
+      
     </div>
   );
 }
